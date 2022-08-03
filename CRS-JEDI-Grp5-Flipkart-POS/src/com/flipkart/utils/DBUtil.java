@@ -14,7 +14,7 @@ public class DBUtil {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost/crs_database_jedi";
     static final String USER = "root";
-    static final String PASS = "Blue_176440";
+    static final String PASS = "PASSWORD";
 
     public static Connection getConnection() {
 
