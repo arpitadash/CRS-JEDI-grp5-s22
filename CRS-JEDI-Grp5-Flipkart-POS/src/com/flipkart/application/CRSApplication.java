@@ -116,7 +116,7 @@ public class CRSApplication {
                     case "student":
                         System.out.println("=======================================");
                         System.out.println("Logged In Successfully as a Student");
-                        System.out.println("Welcome " + username + " !!");
+                        System.out.println("Welcome Student !!");
 //                        System.out.println("Login Time: "+ dtf.format(now) );
                         CRSStudent sc = new CRSStudent();
                         sc.createStudentMenu(username);
@@ -125,7 +125,7 @@ public class CRSApplication {
                     case "professor":
                         System.out.println("=======================================");
                         System.out.println("Logged In Successfully as a Professor");
-                        System.out.println("Welcome " + username + " !!");
+                        System.out.println("Welcome Professor !!");
 //                        System.out.println("Login Time: "+ dtf.format(now) );
                         CRSProfessor pc = new CRSProfessor();
                         pc.createProfessorMenu(username);
@@ -134,7 +134,7 @@ public class CRSApplication {
                     case "admin":
                         System.out.println("=======================================");
                         System.out.println("Logged In Successfully as a Admin");
-                        System.out.println("Welcome " + username + " !!");
+                        System.out.println("God Mode - Admin Access !!");
 //                        System.out.println("Login Time: "+ dtf.format(now) );
                         CRSAdmin ac = new CRSAdmin();
                         ac.createAdminMenu(username);
