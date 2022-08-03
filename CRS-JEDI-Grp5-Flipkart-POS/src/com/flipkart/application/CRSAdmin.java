@@ -302,7 +302,7 @@ public class CRSAdmin {
             System.out.println("=======================================");
             System.out.println("Kindly enter new professor details");
             System.out.println("---------------------------------------");
-            System.out.println("User Name: ");
+            System.out.println("User ID: ");
             username = sc.nextLine();
             System.out.println("Password: ");
             password = sc.nextLine();
@@ -310,8 +310,8 @@ public class CRSAdmin {
             name = sc.nextLine();
             System.out.println("Department: ");
             department = sc.nextLine();
-            System.out.println("Designation: ");
-            designation = sc.nextLine();
+            System.out.println("Designation: Teacher");
+            designation = "teacher";
             System.out.println("Contact Number");
             contact = sc.nextLine();
             System.out.println("Address");

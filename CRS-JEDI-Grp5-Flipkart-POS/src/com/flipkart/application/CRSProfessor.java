@@ -57,7 +57,7 @@ public class CRSProfessor {
                 System.out.println("2 : Add Grade");
                 System.out.println("3 : Show available courses to choose");
                 System.out.println("4 : Register for a course");
-                System.out.println("5: Show registered courses");
+                System.out.println("5: Show already registered courses");
                 System.out.println("6 : Logout");
                 System.out.println("=======================================");
 

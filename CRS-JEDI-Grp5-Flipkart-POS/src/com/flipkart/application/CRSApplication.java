@@ -76,7 +76,8 @@ public class CRSApplication {
 
                     case 4:
                         // Close  the portal.
-//                        sc.close();
+                        sc.close();
+                        System.exit(0);
                         return;
 
                     default:
@@ -115,7 +116,7 @@ public class CRSApplication {
                 switch (role) {
                     case "student":
                         System.out.println("=======================================");
-                        System.out.println("Logged In Successfully as a Student");
+                        System.out.println("Logged In Successfully");
                         System.out.println("Welcome Student !!");
 //                        System.out.println("Login Time: "+ dtf.format(now) );
                         CRSStudent sc = new CRSStudent();
@@ -124,7 +125,7 @@ public class CRSApplication {
 
                     case "professor":
                         System.out.println("=======================================");
-                        System.out.println("Logged In Successfully as a Professor");
+                        System.out.println("Logged In Successfully");
                         System.out.println("Welcome Professor !!");
 //                        System.out.println("Login Time: "+ dtf.format(now) );
                         CRSProfessor pc = new CRSProfessor();
@@ -133,7 +134,7 @@ public class CRSApplication {
 
                     case "admin":
                         System.out.println("=======================================");
-                        System.out.println("Logged In Successfully as a Admin");
+                        System.out.println("Logged In Successfully");
                         System.out.println("God Mode - Admin Access !!");
 //                        System.out.println("Login Time: "+ dtf.format(now) );
                         CRSAdmin ac = new CRSAdmin();
@@ -141,7 +142,7 @@ public class CRSApplication {
                         break;
 
                     default:
-                        System.out.println("Invalid Role");
+                        System.out.println("Invalid User");
                         System.out.println("=======================================");
                 }
             }
