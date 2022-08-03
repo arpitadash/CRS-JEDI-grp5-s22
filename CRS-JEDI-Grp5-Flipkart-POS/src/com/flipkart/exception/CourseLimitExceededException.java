@@ -3,7 +3,7 @@ package com.flipkart.exception;
 
 
 /**
- * @author Dell
+ * @author JEDI-group05
  * Exception arises when student has taken more than the recommended limit of courses
  */
 public class CourseLimitExceededException extends Exception {

@@ -7,8 +7,8 @@ package com.flipkart.exception;
 
 
     /**
-     * @author Dell
-     * Exception arises when we try to add an existing course to our catalogue
+     * @author JEDI-group05
+     * Exception arises when existing course is added to catalogue
      */
 
 public class CourseAlreadyPresentException extends Exception{

@@ -1,7 +1,7 @@
 package com.flipkart.exception;
 
 /**
- * @author Dell
+ * @author JEDI-group05
  * Exception arises when there is no student in a course
  */
 public class NoStudentInCourseException extends Exception{

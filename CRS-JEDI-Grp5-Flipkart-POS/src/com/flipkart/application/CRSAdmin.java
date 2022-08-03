@@ -12,7 +12,7 @@ import jdk.nashorn.internal.runtime.Context;
 
 /**
  *
- * @author JEDI-04
+ * @author JEDI-group05
  * Class that display Admin Client Menu
  *
  */

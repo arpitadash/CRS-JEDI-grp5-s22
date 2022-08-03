@@ -2,7 +2,7 @@
 package com.flipkart.exception;
 
 /**
- * @author Aeron
+ * @author JEDI-group05
  * Exception arises when fees not paid by a student but an activity occures which required fees to be paid.
  */
 public class FeesPendingException extends Exception{

@@ -1,7 +1,7 @@
 package com.flipkart.exception;
 
 /**
- * @author Aeron
+ * @author JEDI-group05
  * Exception arises when grade is not added but student tries to access it.
  */
 

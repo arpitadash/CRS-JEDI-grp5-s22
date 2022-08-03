@@ -1,7 +1,7 @@
 package com.flipkart.exception;
 
 /**
- * @author Aeron
+ * @author JEDI-group05
  * Professor is not added to Course Catalogue
  */
 

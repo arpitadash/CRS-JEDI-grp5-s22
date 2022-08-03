@@ -2,7 +2,7 @@
 package com.flipkart.exception;
 
 /**
- * @author Dell
+ * @author JEDI-group05
  * Exception arises when course has number of students which are either more/less than the recommended range
  */
 

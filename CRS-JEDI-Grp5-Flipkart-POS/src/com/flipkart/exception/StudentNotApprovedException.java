@@ -2,7 +2,7 @@ package com.flipkart.exception;
 
 /**
  * Exception thrown when student is not approval
- * @author Aeron
+ * @author JEDI-group05
  *
  */
 public class StudentNotApprovedException extends Exception{

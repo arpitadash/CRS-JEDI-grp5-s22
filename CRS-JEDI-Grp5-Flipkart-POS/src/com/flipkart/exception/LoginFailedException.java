@@ -1,7 +1,7 @@
 package com.flipkart.exception;
 
 /**
- * @author Aeron
+ * @author JEDI-group05
  * Exception arises when user has entered wrong password.
  */
 public class LoginFailedException extends Exception {
