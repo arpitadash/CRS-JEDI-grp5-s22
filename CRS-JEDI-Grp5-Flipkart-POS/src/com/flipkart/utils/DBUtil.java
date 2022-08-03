@@ -12,9 +12,9 @@ import java.sql.ResultSet;
 
 public class DBUtil {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost/CRSDatabase";
+    static final String DB_URL = "jdbc:mysql://localhost/crs_database_jedi";
     static final String USER = "root";
-    static final String PASS = "Harsh@28";
+    static final String PASS = "#ENTER YOUR OWN PASSWORD";
 
     public static Connection getConnection() {
 
