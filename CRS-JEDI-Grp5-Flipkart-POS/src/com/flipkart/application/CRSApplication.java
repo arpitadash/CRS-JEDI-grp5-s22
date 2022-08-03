@@ -15,8 +15,7 @@ import com.flipkart.service.UserImplementation;
 
 /**
  @author JEDI-group05 Flipkart mentor- Amit K. Balyan
- Nikita and team
-
+ Nikita, Jahnvi, Shravani, Arpita, Harsh
  **** This is the main app for the Course Registration System********
  */
 
